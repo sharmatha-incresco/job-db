@@ -10,8 +10,8 @@ export class JobsService {
 
   constructor() {
     this.dynamoDB = new DynamoDB.DocumentClient({
-      accessKeyId: 'AKIAR3TAHE6TYFECILWB',
-      secretAccessKey: '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',
+      accessKeyId: 'AKIATVV33ZI2FFRUWEBN',
+      secretAccessKey: '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',
       region: 'ap-south-1'
     });
   }
